@@ -13,8 +13,48 @@ img {
 
 	/* Columns are 65px wide, with 20px gutters
 	=========================================== */
+    
+    /* for all calculations assume width size is 1000px */
 
+    .grid-1 {
+    	width: 6.5%;
+    }  /* no gutter -> 65/1000 */
 
+    .grid-2 {
+    	width: 15%;
+    } /* 1 gutter, 2 cols -> (20 + 65 + 65)/1000 = 150/1000*/
+
+    .grid-3 {
+    	width: 23.5;
+      /* 2 gutters, 3 cols -> (150 + 65+20)/1000 = 235/1000 */
+    }
+    .grid-4 {
+    	width: 32;
+    }
+    .grid-5 {
+    	width: 40.5;
+    }
+    .grid-6 {
+    	width: 49;
+    }
+    .grid-7 {
+    	width: 57.5;
+    }
+    .grid-8 {
+    	width: 66%;
+    }
+    .grid-9 {
+    	width: 74.5;
+    }
+    .grid-10 {
+    	width: 83;
+    }
+    .grid-11 {
+    	width: 91.5;
+    }
+    .grid-12 {
+    	width: 100%;
+    }
 	/* Clearfix
 	================================ */
 
