@@ -26,8 +26,7 @@ img {
     	min-height: 1px; /* prevent collapse */
     	padding-left: 10px;
     	padding-right: 10px;
-    	margin-left: 2%;  /* defining gutters 20px /1000 */
-    	margin-right: 2%;
+    	margin-left: 2%;  /* defining gutters 20px /1000 */    	
     } 
 
     /* but first col should not have a left gutter */
@@ -54,32 +53,32 @@ img {
     } /* 1 gutter, 2 cols -> (20 + 65 + 65)/1000 = 150/1000*/
 
     .grid-3 {
-    	width: 23.5;
+    	width: 23.5%;
       /* 2 gutters, 3 cols -> (150 + 65+20)/1000 = 235/1000 */
     }
     .grid-4 {
-    	width: 32;
+    	width: 32%;
     }
     .grid-5 {
-    	width: 40.5;
+    	width: 40.5%;
     }
     .grid-6 {
-    	width: 49;
+    	width: 49%;
     }
     .grid-7 {
-    	width: 57.5;
+    	width: 57.5%;
     }
     .grid-8 {
     	width: 66%;
     }
     .grid-9 {
-    	width: 74.5;
+    	width: 74.5%;
     }
     .grid-10 {
-    	width: 83;
+    	width: 83%;
     }
     .grid-11 {
-    	width: 91.5;
+    	width: 91.5%;
     }
     .grid-12 {
     	width: 100%;
